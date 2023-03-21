@@ -15,22 +15,26 @@ var mn= /^[0-9]{11}$/;
 do{
     var name = prompt("enter your name")
 }while(!name.match(name));
+
+
 do{
     var ph = prompt("enter your phone")
 }while(!ph.match(ph));
+
 do{
     var email = prompt("enter your email")
-}while(!email.match(ph));
+}while(!email.match(email));
+
 do{
     var mn = prompt("enter your mobile phone")
-}while(!mn.match(ph));
+}while(!mn.match(mn));
 
-console.log(namee , ph,email,mn);
+console.log(name ,ph ,email ,mn );
 
 var x = new RegExp("^[A-Za-z]{8}","gim");
 var y = '1245';
 console.log(y.match(x)); 
-console.log(x.test(y));  
+console.log(x.test(y)); 
 
 if (!isNaN(name) || isNaN(ph) || !validateEmail(email) || isNaN(mn)) {
   console.log("Invalid input. Please try again.");
@@ -57,4 +61,4 @@ function validateEmail(email) {
   return re.test(email);
 }
 
-window.location.href ="./user info.html"
+//*window.location.href ="./user info.html"
