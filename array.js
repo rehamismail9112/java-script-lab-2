@@ -11,10 +11,10 @@ var arrAsc = arr.slice().sort(function(a, b) { return a - b; });
 
 
 
-document.write("Entered values: " + arr.join(", ")+"<br>");
+document.write("Entered values: " + arr.join(", ") + "<br>");
 
 document.write("Array in descending order: " + arrDesc.join(", ") + "<br>");
 
-document.write("Array in ascending order: " + arrAsc.join(", ")+"<br>"); 
+document.write("Array in ascending order: " + arrAsc.join(", ") + "<br>"); 
 
 //*window.location.href ="./array.html"
